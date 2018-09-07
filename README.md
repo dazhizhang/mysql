@@ -21,3 +21,4 @@ $cfg['Servers'][$i]['password']
 
 # Mysql初始化root密码和允许远程访问
 https://www.cnblogs.com/cnblogsfans/archive/2009/09/21/1570942.html
+https://www.jianshu.com/p/26b52a1fb3dd
