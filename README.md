@@ -20,5 +20,16 @@ $cfg['Servers'][$i]['password']
 
 
 # Mysql初始化root密码和允许远程访问
+首先登录MySQL。</br>
+</br>
+mysql -u root -p</br>
+</br>
+//赋予任何主机访问数据的权限</br>
+mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;</br>
+//使修改生效</br>
+mysql>FLUSH PRIVILEGES;</br>
+//退出MySQL服务器</br>
+mysql>EXIT;</br>
+
 https://www.cnblogs.com/cnblogsfans/archive/2009/09/21/1570942.html
 https://www.jianshu.com/p/26b52a1fb3dd
